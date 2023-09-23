@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SIH/static/css/main.087a93ed.css",
+    "main.js": "/SIH/static/js/main.1f43e8f2.js",
+    "static/media/profile-2.png": "/SIH/static/media/profile-2.4752a9db34458eeffcfa.png",
+    "static/media/profile-1.png": "/SIH/static/media/profile-1.0261bb4efe7a9075c56a.png",
+    "static/media/Plant3.jpg": "/SIH/static/media/Plant3.bd7d455bbe1f3c3003a2.jpg",
+    "static/media/profile-3.png": "/SIH/static/media/profile-3.530bb2fd7ece3dd3b3be.png",
+    "static/media/profile-4.png": "/SIH/static/media/profile-4.3c44185ab9c84614038f.png",
+    "static/media/plant2.webp": "/SIH/static/media/plant2.c446d12b65356c7a711c.webp",
+    "static/media/GreenMedLens.jpg": "/SIH/static/media/GreenMedLens.9cb8bac5c2cb98d0ed2c.jpg",
+    "static/media/aboutPlant.avif": "/SIH/static/media/aboutPlant.7e8976ddcd015fc0b8ce.avif",
+    "index.html": "/SIH/index.html",
+    "main.087a93ed.css.map": "/SIH/static/css/main.087a93ed.css.map",
+    "main.1f43e8f2.js.map": "/SIH/static/js/main.1f43e8f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.087a93ed.css",
+    "static/js/main.1f43e8f2.js"
+  ]
+}
