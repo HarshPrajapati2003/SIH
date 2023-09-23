@@ -1,0 +1,104 @@
+.ba-text-content {
+  margin-top: 20px;
+  /* width: 90%; */
+} 
+
+.file-upload {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #27a226;
+  }
+
+  .drop-area {
+    border: 2px dashed #27a226;
+    padding: 60px 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .drop-area input{
+    font-size: 20px;
+    text-align-last: center;
+  }
+  .drop-area p {
+    margin: 0;
+  }
+  @media screen and (max-width:800px) {
+    .drop-area { font-size: 20px;
+      padding: 50px 25px;
+    }
+    .drop-area input{
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:350px) {
+    .drop-area { font-size: 15px;
+      padding: 50px 5px;
+    }
+    .drop-area input{
+      font-size: 10px;
+    }
+  }
+  .progress-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .progress-bar div {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .file-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container button:first-child {
+    background-color: #27a226;
+  }
+  
+  .button-container button:last-child {
+    background-color: #e74c3c;
+  }
+  
