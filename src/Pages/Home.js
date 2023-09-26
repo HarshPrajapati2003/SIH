@@ -7,6 +7,7 @@ import BookAppointment from "../Components/BookAppointment";
 import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
 import Services from "../Components/Services";
+import Check from "../Components/Check";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <About />
       <BookAppointment />
       {/* <Doctors /> */}
+      <Check/>
       <Footer />
     </div>
   );

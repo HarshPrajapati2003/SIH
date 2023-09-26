@@ -78,9 +78,9 @@ function Navbar() {
 
         <ul className="mobile-navbar-links">
           <li>
-            <Link onClick={openNav} to="/">
+          <a onClick={openNav} href="#home">
               Home
-            </Link>
+            </a>
           </li>
           <li>
             <a onClick={openNav} href="#services">
@@ -88,20 +88,21 @@ function Navbar() {
             </a>
           </li>
           <li>
+            <a onClick={openNav} href="#help">
+              Help
+            </a>
+          </li>
+          <li>
             <a onClick={openNav} href="#about">
               About
             </a>
           </li>
-          <li>
-            <a onClick={openNav} href="#doctors">
-              Doctors
-            </a>
-          </li>
-          <li>
+         
+          {/* <li>
             <a onClick={openNav} href="#contact">
               Contact
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
 

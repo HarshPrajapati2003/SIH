@@ -62,7 +62,7 @@ const Services = () => {
         body: formData,
       });
       const result = await response.json();
-      console.log('Predictions:', result.predictions);
+      console.log('Predictions:', result);
     } catch (error) {
       console.error('Error making prediction:', error);
   }
