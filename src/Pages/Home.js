@@ -13,9 +13,9 @@ function Home() {
   return (
     <div className="home-section">
       <Navbar />
-      <Hero />
+      <Hero /> 
       <Info />
-      <Services/>
+      {/* <Services/> */}
       <About />
       <BookAppointment />
       {/* <Doctors /> */}
