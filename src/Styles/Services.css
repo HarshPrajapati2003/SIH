@@ -2,7 +2,13 @@
   margin-top: 20px;
   /* width: 90%; */
 } 
-
+.ba-checks {
+  margin: 28px 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: .7px;
+}
 .file-upload {
     padding: 20px;
     font-family: 'Poppins', sans-serif;
@@ -93,7 +99,12 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
+  .about-text-sTitle {
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    letter-spacing: .7px !important;
+}
   .button-container button:first-child {
     background-color: #27a226;
   }

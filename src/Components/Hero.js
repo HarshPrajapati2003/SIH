@@ -39,12 +39,13 @@ function Hero() {
           <p className="text-descritpion">
           Our platform is designed to assist you in identifying various medicinal plants effortlessly through images. Whether you're a nature enthusiast, a researcher, or a health-conscious individual, our tool provides accurate plant identification, along with insightful information on their properties and potential uses. Join us on this botanical journey and explore the wonders of nature's pharmacy. Start identifying medicinal plants with just a click!
           </p>
+          <a href="#services">
           <button
             className="text-appointment-btn"
             type="button"
           >
             <FontAwesomeIcon icon={faCalendarCheck} /> Start identifying
-          </button>
+          </button></a>
           <div className="text-stats">
             <div className="text-stats-container">
               <p>50+</p>

@@ -7,19 +7,19 @@ const Check = () => {
   const [image, setImage] = useState(null);
   const [predictions, setPredictions] = useState([]);
 
-  const loadModel = async () => {
-    try {
-      const loadedModel = await tf.loadLayersModel('http://localhost:5000/model.json');
-      setModel(loadedModel);
-      console.log('Model loaded successfully!');
-    } catch (error) {
-      console.error('Error loading the model:', error);
-    }
-  };
+  // const loadModel = async () => {
+  //   try {
+  //     const loadedModel = await tf.loadLayersModel('http://localhost:5000/model.json');
+  //     setModel(loadedModel);
+  //     console.log('Model loaded successfully!');
+  //   } catch (error) {
+  //     console.error('Error loading the model:', error);
+  //   }
+  // };
 
-  useEffect(() => {
-    loadModel();
-  }, []);
+  // useEffect(() => {
+  //   loadModel();
+  // }, []);
 
   const handleImageUpload = (event) => {
     const file = event.target.files[0];

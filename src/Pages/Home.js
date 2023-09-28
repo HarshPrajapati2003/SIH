@@ -8,6 +8,7 @@ import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
 import Services from "../Components/Services";
 import Check from "../Components/Check";
+import ImageUpload from "../Components/ImageUpload";
 
 function Home() {
   return (
@@ -15,11 +16,12 @@ function Home() {
       <Navbar />
       <Hero /> 
       <Info />
-      {/* <Services/> */}
+      <Services/>
       <About />
       <BookAppointment />
       {/* <Doctors /> */}
-      <Check/>
+      {/* <Check/> */}
+      {/* <ImageUpload/> */}
       <Footer />
     </div>
   );
