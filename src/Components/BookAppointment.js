@@ -7,9 +7,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
 import "../Styles/BookAppointment.css";
+import { useTranslation } from "react-i18next";
 
 function BookAppointment() {
   const navigate = useNavigate();
+   const { t } = useTranslation();
 
   return (
     <div className="ba-section">
@@ -19,23 +21,25 @@ function BookAppointment() {
 
       <div className="ba-text-content">
         <h3 className="ba-title">
-          <span>Why Choose GreenMed Lens?</span>
+          <span>{t("book1")}</span>
         </h3>
-        <p className="ba-description">
-        Discover the compelling reasons to choose GreenMed Lens for all your medicinal plant identification needs. Experience accuracy, educational insights, and a user-friendly interface, making your exploration of medicinal plants a seamless and enlightening journey. Join us in uncovering the wonders of herbal medicine and enhancing your understanding of the plant world.
-        </p>
+        <p className="ba-description">{t("book2")}</p>
 
         <p className="ba-checks ba-check-first">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Precision and Reliability
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} />{" "}
+          {t("book3")}
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> In-depth Educational Resources
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} />{" "}
+          {t("book4")}
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Intuitive User Interface
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} />{" "}
+          {t("book5")}
         </p>
         <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Diverse Plant Database
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} />{" "}
+          {t("book6")}
         </p>
 
         {/* <button

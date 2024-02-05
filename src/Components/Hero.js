@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
 import "../Styles/Hero.css";
+import { t } from "i18next";
 
 function Hero() {
   const navigate = useNavigate();
@@ -33,28 +34,22 @@ function Hero() {
       <div className="hero-section">
         <div className="text-section">
           <p className="text-headline"></p>
-          <h2 className="text-title">
-          Welcome to GreenMed Lens : Your Herbal Plant ID Tool
-          </h2>
-          <p className="text-descritpion">
-          Our platform is designed to assist you in identifying various medicinal plants effortlessly through images. Whether you're a nature enthusiast, a researcher, or a health-conscious individual, our tool provides accurate plant identification, along with insightful information on their properties and potential uses. Join us on this botanical journey and explore the wonders of nature's pharmacy. Start identifying medicinal plants with just a click!
-          </p>
+          <h2 className="text-title">{t("hero1")}</h2>
+          <p className="text-descritpion">{t("hero2")}</p>
           <a href="#services">
-          <button
-            className="text-appointment-btn"
-            type="button"
-          >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Start identifying
-          </button></a>
+            <button className="text-appointment-btn" type="button">
+              <FontAwesomeIcon icon={faCalendarCheck} /> {t("hero3")}
+            </button>
+          </a>
           <div className="text-stats">
             <div className="text-stats-container">
-              <p>50+</p>
-              <p>Medical Plants Data</p>
+              <p>{t("hero4")}</p>
+              <p>{t("hero5")}</p>
             </div>
 
             <div className="text-stats-container">
-              <p>93%</p>
-              <p>Software Accuracy Rate</p>
+              <p>{t("hero6")}</p>
+              <p>{t("hero7")}</p>
             </div>
 
             {/* <div className="text-stats-container">

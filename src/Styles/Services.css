@@ -2,6 +2,19 @@
   margin-top: 20px;
   /* width: 90%; */
 } 
+
+.progress, .progress-stacked {
+  --bs-progress-height: 2rem !important;
+    --bs-progress-font-size: 1rem !important;
+    --bs-progress-bg: white !important;
+    border-bottom: 2px dashed black;
+    border-radius: none;  
+}
+
+.progress-bar{
+  color: #FFFF00 !important;
+}
+
 .ba-checks {
   margin: 28px 0;
   font-family: 'Rubik', sans-serif;

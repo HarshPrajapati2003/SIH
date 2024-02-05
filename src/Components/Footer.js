@@ -2,33 +2,30 @@ import React from "react";
 import "../Styles/Footer.css";
 import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+   const { t } = useTranslation();
   return (
     <div className="footer-section">
       <div className="footer-container">
         <div className="ft-info">
           <div className="ft-info-p1">
-            <p className="ft-title">
-              GreenMed Lens
-            </p>
-            <p className="ft-description">
-            Thank You for Visiting GreenMed Lens:
-We appreciate your time and interest in our platform. Come back soon for more botanical discoveries!
-            </p>
+            <p className="ft-title">{t("footer1")}</p>
+            <p className="ft-description">{t("footer2")}</p>
           </div>
 
           <SubscribeNewsletter />
         </div>
 
         <div className="ft-list">
-          <p className="ft-list-title">Services</p>
-          <ul className="ft-list-items" style={{paddingLeft: "0rem"}}>
+          <p className="ft-list-title">{t("footer3")}</p>
+          <ul className="ft-list-items" style={{ paddingLeft: "0rem" }}>
             <li>
-              <a href="#services">Plant Identification</a>
+              <a href="#services">{t("footer4")}</a>
             </li>
             <li>
-              <a href="#services">Educational Insights</a>
+              <a href="#services">{t("footer5")}</a>
             </li>
             {/* <li>
               <a href="#services">Dental Care</a>
@@ -43,33 +40,33 @@ We appreciate your time and interest in our platform. Come back soon for more bo
         </div>
 
         <div className="ft-list">
-          <p className="ft-list-title">Legal</p>
-          <ul className="ft-list-items" style={{paddingLeft: "0rem"}}>
+          <p className="ft-list-title">{t("footer6")}</p>
+          <ul className="ft-list-items" style={{ paddingLeft: "0rem" }}>
             <li>
-              <Link to={"/legal"}>General Info</Link>
+              <Link to={"/legal"}>{t("footer7")}</Link>
             </li>
             <li>
-              <Link to={"/legal"}>Privacy Policy</Link>
+              <Link to={"/legal"}>{t("footer8")}</Link>
             </li>
             <li>
-              <Link to={"/legal"}>Terms of Services</Link>
+              <Link to={"/legal"}>{t("footer9")}</Link>
             </li>
             <li>
-              <Link to={"/legal"}>How it Works</Link>
+              <Link to={"/legal"}>{t("footer10")}</Link>
             </li>
           </ul>
         </div>
 
         <div className="ft-list" id="contact">
-          <p className="ft-list-title">Talk To Us</p>
-          <ul className="ft-list-items" style={{paddingLeft: "0rem"}}>
+          <p className="ft-list-title">{t("footer11")}</p>
+          <ul className="ft-list-items" style={{ paddingLeft: "0rem" }}>
             <li>
-              <a href="mailto:support@healthplus.com">support@greenmedlens.com</a>
+              <a href="mailto:support@healthplus.com">
+                support@greenmedlens.com
+              </a>
             </li>
             <li>
-              <a href="mailto:appointment@healthplus.com">
-                info@greenmed.com
-              </a>
+              <a href="mailto:appointment@healthplus.com">info@greenmed.com</a>
             </li>
             <li>
               <a href="tel:+022 5454 5252">+022 5454 5252</a>
@@ -84,7 +81,7 @@ We appreciate your time and interest in our platform. Come back soon for more bo
       <div className="ft-copyright">
         <p>© 2023 GreenMed Lens. All rights reserved.</p>
 
-        <ul className="ft-social-links" style={{paddingLeft: "0rem"}}>
+        <ul className="ft-social-links" style={{ paddingLeft: "0rem" }}>
           <li>
             <a
               href="https://www.linkedin.com/in/hrsdp/"
