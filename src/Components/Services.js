@@ -436,7 +436,7 @@ const Services = () => {
 
     try {
       const response = await axios.post(
-        "https://myflaskapp-w6hb.onrender.com/predict",
+        "/predict",
         formData
       );
       console.log(response.data);

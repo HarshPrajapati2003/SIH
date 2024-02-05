@@ -6,6 +6,7 @@ import Legal from "./Pages/Legal";
 import NotFound from "./Pages/NotFound";
 
 function App() {
+  console.log("My Token = ",window.token)
   return (
     <div className="App">
       <Router>
